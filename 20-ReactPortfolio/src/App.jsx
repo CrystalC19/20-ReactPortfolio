@@ -1,7 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// imports
+
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Page from "./components/Page";
+import { useLocation } from "react-router-dom";
+
+//import './App.css'
+
+
+//Layout
 
 function App() {
   const currentPage = useLocation().pathname;
